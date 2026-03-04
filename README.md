@@ -166,14 +166,16 @@ Feedback system
 
 The application is deployed using Streamlit.
 
-Live App:
+Live App: https://kavya-multimodal-math-mentor.streamlit.app/
 
 ## ⚙️ Installation & Setup
 1️⃣ Clone the repository
 git clone https://github.com/yourusername/math-mentor.git
 cd math-mentor
+
 2️⃣ Install dependencies
 pip install -r requirements.txt
+
 3️⃣ Run the application
 streamlit run app.py
 
