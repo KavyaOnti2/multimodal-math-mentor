@@ -1,0 +1,13 @@
+streamlit
+easyocr
+openai-whisper
+langchain
+faiss-cpu
+sentence-transformers
+sympy
+python-dotenv
+pillow
+numpy
+pandas
+tqdm
+streamlit-mic-recorder

@@ -1,0 +1,7 @@
+Quadratic equation standard form is ax^2 + bx + c = 0.
+The solution of quadratic equation is given by quadratic formula.
+Derivative of x^n is n*x^(n-1).
+Limit of sin(x)/x as x approaches 0 is 1.
+Probability of getting head in a fair coin is 1/2.
+Probability of getting a number on a fair die is 1/6.
+Determinant of 2x2 matrix [[a,b],[c,d]] is ad - bc.
