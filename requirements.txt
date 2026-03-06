@@ -1,6 +1,7 @@
 streamlit
-easyocr
+easyocr==1.7.1
 openai-whisper
+ffmpeg-python
 langchain
 faiss-cpu
 sentence-transformers

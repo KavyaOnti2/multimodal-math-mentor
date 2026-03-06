@@ -14,6 +14,9 @@ def transcribe_audio(audio_path: str) -> Tuple[str, float]:
 
         text = result.get("text", "").strip()
 
+        if not text:
+            return "", 0.0
+
         # Whisper doesn't give confidence → heuristic
         confidence = 0.8 if len(text) > 5 else 0.4
 

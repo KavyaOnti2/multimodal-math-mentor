@@ -210,7 +210,7 @@ The system demonstrates a reliable architecture for building AI-driven education
 
 ## 🧑‍💻 Author
 
-Kavya Onti
+Kavya Lakshmappa Onti
 
 Computer Science Engineering Student
 AI / ML / Data Science Enthusiast
