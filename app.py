@@ -463,41 +463,7 @@ with st.expander("🔬 System Diagnostics (AI Internals)"):
 
     if route_output:
         st.write("**Routing Decision:**", route_output.get("route"))
-# =====================================================
-# ❓ CLARIFICATION LOOP (UPDATED — VERIFIER + OCR + PARSER)
-# =====================================================
 
-if st.session_state.clarification_mode:
-
-    st.subheader("❓ Clarification Required")
-
-    # Show parser question only if it exists
-    if parsed_output and parsed_output.get("clarification_question"):
-        st.warning(parsed_output.get("clarification_question"))
-    else:
-        st.warning("Please review the problem statement or provide clarification.")
-
-    user_clarification = st.text_input(
-        "Edit or provide more details:",
-        key="clarify_input",
-    )
-
-    if st.button("Submit Clarification"):
-
-        if user_clarification.strip():
-
-            merged_text = (
-                st.session_state.hitl_editor + " " + user_clarification
-            ).strip()
-
-            # Store clarified version
-            st.session_state.clarified_text = merged_text
-
-            # Exit clarification mode
-            st.session_state.clarification_mode = False
-
-            st.success("✅ Clarification received. Re-running system...")
-            st.rerun()
 
 # =====================================================
 # 📚 RAG 
