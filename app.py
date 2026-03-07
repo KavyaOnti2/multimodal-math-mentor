@@ -486,9 +486,7 @@ if st.session_state.clarification_mode:
 
         if user_clarification.strip():
 
-            merged_text = (
-                st.session_state.hitl_editor + " " + user_clarification
-            ).strip()
+            merged_text = (user_clarification).strip()
 
             # Store clarified version
             st.session_state.clarified_text = merged_text
