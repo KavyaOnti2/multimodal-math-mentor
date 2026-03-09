@@ -217,4 +217,4 @@ AI / ML / Data Science Enthusiast
 
 ## 📜 License
 
-This project was built by Kavya as part of her AI/ML project portfolio to explore real-world applications of machine learning.
+This project was developed as part of my AI/ML project portfolio to explore real-world applications of machine learning.
