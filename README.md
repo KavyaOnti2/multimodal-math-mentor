@@ -217,4 +217,6 @@ AI / ML / Data Science Enthusiast
 
 ## 📜 License
 
-This project was developed for the AI Planet AI Engineer Assignment.
+## 📜 License
+
+This project was built by Kavya as part of her AI/ML project portfolio to explore real-world applications of machine learning.
